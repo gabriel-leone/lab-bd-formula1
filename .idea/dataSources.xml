@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="formula1@ep-still-unit-acy15wr3-pooler.sa-east-1.aws.neon.tech" uuid="6f9d0f2f-c2b3-4720-9c2c-a7d3155acf08">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ep-still-unit-acy15wr3-pooler.sa-east-1.aws.neon.tech/formula1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
