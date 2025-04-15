@@ -41,23 +41,21 @@ CREATE TABLE countries (
     wikipedia_link TEXT,
     keywords TEXT,
     PRIMARY KEY (id)
-    -- adicionar uma possível constraint de continente (são poucos valores)
-    -- adicionar uma possível unicidade em code
 );
 
 CREATE TABLE airports (
     id INT,
     ident VARCHAR(10),
-    type VARCHAR(100), -- colocar constraint dos tipos
+    type VARCHAR(100),
     name VARCHAR(255),
     lat_deg numeric(9,6),
     lng_deg numeric(9,6),
     elev_ft int,
-    continent VARCHAR(2), -- colocar constraint de continentes
+    continent VARCHAR(2),
     iso_country VARCHAR(2),
-    iso_region VARCHAR(10), -- colocar constraint do formato "US-NY"
+    iso_region VARCHAR(10),
     city VARCHAR(100),
-    scheduled_service VARCHAR(10), -- colocar constraint yes or no
+    scheduled_service VARCHAR(10),
     gps_code VARCHAR(10),
     iata_code VARCHAR(10),
     local_code VARCHAR(10),
@@ -66,8 +64,6 @@ CREATE TABLE airports (
     keywords TEXT,
     PRIMARY KEY (id)
 );
-
-drop table geocities15k cascade ;
 
 CREATE TABLE geocities15k (
     id BIGINT,
