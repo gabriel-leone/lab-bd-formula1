@@ -61,6 +61,8 @@ SELECT Pilotos_Nacionalidade('British');
 -- Teste com sua nacionalidade modificada do T2
 SELECT Pilotos_Nacionalidade('BR');
 
+SELECT Pilotos_Nacionalidade('Fake country');
+
 
 -- Exercício 3
 
